@@ -1,15 +1,25 @@
 {
-  "updated": "2026-05-07",
-  "total_raws": 13,
-  "transcribed": 13,
-  "total_literature": 13,
-  "resolved": 13,
-  "promoted": 13,
+  "updated": "2026-05-08",
+  "total_raws": 16,
+  "transcribed": 16,
+  "total_literature": 16,
+  "resolved": 16,
+  "promoted": 16,
   "entries": [
     {
       "raw": "MOC.md",
       "transcribed": true,
       "literature": "AI 模型知识库 — 导航页.md"
+    },
+    {
+      "raw": "Obsidian Git 插件配置.md",
+      "transcribed": true,
+      "literature": "Obsidian Git 插件配置.md"
+    },
+    {
+      "raw": "Obsidian 必备插件.md",
+      "transcribed": true,
+      "literature": "Obsidian 必备插件.md"
     },
     {
       "raw": "deepseek-anthropic-api.md",
@@ -70,6 +80,11 @@
       "raw": "mimo-v2.5.md",
       "transcribed": true,
       "literature": "MiMo-V2.5.md"
+    },
+    {
+      "raw": "obsidian-git 连接 GitHub 报错.md",
+      "transcribed": true,
+      "literature": "obsidian-git 连接 GitHub 报错.md"
     }
   ],
   "literature_status": [
@@ -134,6 +149,18 @@
       "permanent": "[[Permanent/MiMo-V2.5]]"
     },
     {
+      "file": "Obsidian Git 插件配置.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/Obsidian Git 插件：从零建仓配置]]"
+    },
+    {
+      "file": "Obsidian 必备插件.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/Obsidian 必备插件]]"
+    },
+    {
       "file": "deepseek-v4-pro 并发测试.md",
       "resolved": true,
       "promoted": true,
@@ -150,6 +177,12 @@
       "resolved": true,
       "promoted": true,
       "permanent": "[[Permanent/AI 模型并发能力]]"
+    },
+    {
+      "file": "obsidian-git 连接 GitHub 报错.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/Obsidian Git 插件：从零建仓配置]]"
     }
   ]
 }

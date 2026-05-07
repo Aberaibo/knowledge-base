@@ -258,6 +258,56 @@
     ]
   },
   {
+    "path": "Permanent/Obsidian Git 插件：从零建仓配置.md",
+    "title": "Obsidian Git 插件：从零建仓配置",
+    "categories": [
+      "text"
+    ],
+    "types": [
+      "essay"
+    ],
+    "kinds": [],
+    "topics": [
+      "obsidian",
+      "git",
+      "plugins"
+    ],
+    "summary": "Windows 桌面端 Obsidian Git 插件的克隆配置教程，一行 git clone 拿仓库，装插件开自动同步，不需要在插件里配 token。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-08",
+    "author": "艾伯",
+    "source": [
+      "[[Literature/Obsidian Git 插件配置]]"
+    ]
+  },
+  {
+    "path": "Permanent/Obsidian 必备插件.md",
+    "title": "Obsidian 必备插件",
+    "categories": [
+      "text"
+    ],
+    "types": [
+      "essay"
+    ],
+    "kinds": [],
+    "topics": [
+      "obsidian",
+      "plugins",
+      "tools"
+    ],
+    "summary": "基于 2026 年社区共识整理的 Obsidian 必备插件清单，按「核心必装→效率自动化→研究写作→UI 增强」四档分组，附选择原则和开局顺序建议。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": "艾伯",
+    "source": [
+      "[[Literature/Obsidian 必备插件]]"
+    ]
+  },
+  {
     "path": "Permanent/kimi-k2.5.md",
     "title": "kimi-k2.5",
     "categories": "text",

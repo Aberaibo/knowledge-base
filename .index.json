@@ -1,0 +1,285 @@
+[
+  {
+    "path": "Permanent/AI 模型并发能力.md",
+    "title": "AI 模型并发能力",
+    "categories": "text",
+    "types": [
+      "essay"
+    ],
+    "kinds": [],
+    "topics": [
+      "[[AI 模型知识库]]",
+      "[[MiMo-V2.5-Pro]]",
+      "[[kimi-k2.5]]",
+      "[[DeepSeek-V4-Pro]]"
+    ],
+    "summary": "汇总 mimo-v2.5-pro、kimi-k2.5、deepseek-v4-pro 三个模型的并发测试结果：三者 50 并发内均全部成功，偶发 429 更像瞬时抖动而非硬上限。provider 并发不是当前 OpenClaw 子代理超时的主瓶颈。deepseek-v4-pro max_tokens=393216（384K）API 接受。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": [
+      "艾伯"
+    ],
+    "source": [
+      "[[Literature/mimo-v2.5-pro 并发测试]]",
+      "[[Literature/kimi-k2.5 并发测试]]",
+      "[[Literature/deepseek-v4-pro 并发测试]]"
+    ]
+  },
+  {
+    "path": "Permanent/AI 模型知识库.md",
+    "title": "AI 模型知识库",
+    "categories": "text",
+    "types": [
+      "essay"
+    ],
+    "kinds": [],
+    "topics": [
+      "[[MiMo-V2.5-Pro]]",
+      "[[MiMo-V2.5]]",
+      "[[AI 模型并发能力]]"
+    ],
+    "summary": "这是一页 AI 模型知识库导航，聚合 MiMo 平台、MiMo-V2.5 系列、MiMo Token Plan，以及并发测试等笔记，方便从模型规格、定价、平台入口和并发能力四个角度快速进入可搜索知识网络。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": [
+      "艾伯"
+    ],
+    "source": [
+      "[[Literature/AI 模型知识库 — 导航页]]"
+    ]
+  },
+  {
+    "path": "Permanent/DeepSeek API 平台.md",
+    "title": "DeepSeek API 平台",
+    "categories": "text",
+    "types": [
+      "article"
+    ],
+    "kinds": [],
+    "topics": [
+      "[[AI 模型知识库]]",
+      "[[DeepSeek-V4-Pro]]",
+      "[[DeepSeek-V4-Flash]]"
+    ],
+    "summary": "DeepSeek API 平台的核心价值是同时兼容 OpenAI 与 Anthropic 两套主流接口：OpenAI 格式走 https://api.deepseek.com，Anthropic 格式走 https://api.deepseek.com/anthropic，并且已经给出 deepseek-chat 与 deepseek-reasoner 向 v4 模型名迁移的弃用时间点。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": [
+      "艾伯"
+    ],
+    "source": [
+      "[[Literature/DeepSeek API 接入概览]]",
+      "[[Literature/DeepSeek Anthropic 兼容接口]]"
+    ]
+  },
+  {
+    "path": "Permanent/DeepSeek 定价与规格.md",
+    "title": "DeepSeek 定价与规格",
+    "categories": "text",
+    "types": [
+      "essay"
+    ],
+    "kinds": [],
+    "topics": [
+      "[[AI 模型知识库]]",
+      "[[DeepSeek-V4-Flash]]",
+      "[[DeepSeek-V4-Pro]]"
+    ],
+    "summary": "DeepSeek 当前公开资料显示，DeepSeek-V4-Flash 与 DeepSeek-V4-Pro 都支持 1M 上下文和 384K 最大输出。当前有效价格里，Flash 是 1 元输入 / 2 元输出每百万 tokens，Pro 在 2.5 折期间是 3 元输入 / 6 元输出；官网同时显示原价与折后价，阅读时很容易把 12 / 24 元原价误当成当前价格。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": [
+      "艾伯"
+    ],
+    "source": [
+      "[[Literature/DeepSeek 模型与价格]]"
+    ]
+  },
+  {
+    "path": "Permanent/DeepSeek-V4-Flash.md",
+    "title": "DeepSeek-V4-Flash",
+    "categories": "text",
+    "types": [
+      "article"
+    ],
+    "kinds": [],
+    "topics": [
+      "[[AI 模型知识库]]",
+      "[[DeepSeek API 平台]]",
+      "[[DeepSeek 定价与规格]]"
+    ],
+    "summary": "DeepSeek-V4-Flash 是 DeepSeek 当前公开的主力模型之一，支持 1M 上下文、384K 最大输出、JSON Output、Tool Calls，以及非思考与思考两种模式；它同时承接了旧模型名 deepseek-chat 与 deepseek-reasoner 的兼容映射。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": [
+      "艾伯"
+    ],
+    "source": [
+      "[[Literature/DeepSeek API 接入概览]]",
+      "[[Literature/DeepSeek 模型与价格]]",
+      "[[Literature/DeepSeek 思考模式]]"
+    ]
+  },
+  {
+    "path": "Permanent/DeepSeek-V4-Pro.md",
+    "title": "DeepSeek-V4-Pro",
+    "categories": "text",
+    "types": [
+      "article"
+    ],
+    "kinds": [],
+    "topics": [
+      "[[AI 模型知识库]]",
+      "[[DeepSeek API 平台]]",
+      "[[DeepSeek 定价与规格]]"
+    ],
+    "summary": "DeepSeek-V4-Pro 是 DeepSeek 当前公开的高价位主力模型，支持 1M 上下文、384K 最大输出、JSON Output、Tool Calls 和思考模式；截至 2026-05-07，官网当前有效价格是 2.5 折后的 3 元输入 / 6 元输出每百万 tokens，而不是页面同时显示的 12 / 24 元原价。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": [
+      "艾伯"
+    ],
+    "source": [
+      "[[Literature/DeepSeek 模型与价格]]",
+      "[[Literature/DeepSeek 思考模式]]",
+      "[[Literature/DeepSeek Tool Calls]]"
+    ]
+  },
+  {
+    "path": "Permanent/MiMo Token Plan.md",
+    "title": "MiMo Token Plan",
+    "categories": "text",
+    "types": [
+      "article"
+    ],
+    "kinds": [],
+    "topics": [
+      "[[AI 模型知识库]]",
+      "[[MiMo-V2.5-Pro]]",
+      "[[MiMo-V2.5]]"
+    ],
+    "summary": "MiMo Token Plan 记录了 MiMo-V2.5 与 MiMo-V2.5-Pro 的按量计费规则，包括 256K 与 1M 上下文两档价格、缓存命中价格，以及 mimo-v2.5-pro 在超过 256K 上下文后成本翻倍这一关键成本分界线。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": [
+      "艾伯"
+    ],
+    "source": [
+      "[[Literature/MiMo Token Plan]]"
+    ]
+  },
+  {
+    "path": "Permanent/MiMo 平台.md",
+    "title": "MiMo 平台",
+    "categories": "text",
+    "types": [
+      "article"
+    ],
+    "kinds": [],
+    "topics": [
+      "[[AI 模型知识库]]",
+      "[[MiMo-V2.5-Pro]]",
+      "[[MiMo-V2.5]]"
+    ],
+    "summary": "MiMo 平台页面汇总了小米 MiMo 模型的官方文档、模型更新、超参数说明、OpenAI 兼容接口、Anthropic 接口和 AI Studio 入口，适合作为接入 MiMo API（应用程序接口）和查官方说明的统一跳板。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": [
+      "艾伯"
+    ],
+    "source": [
+      "[[Literature/MiMo 平台]]"
+    ]
+  },
+  {
+    "path": "Permanent/MiMo-V2.5-Pro.md",
+    "title": "MiMo-V2.5-Pro",
+    "categories": "text",
+    "types": [
+      "article"
+    ],
+    "kinds": [],
+    "topics": [
+      "[[AI 模型知识库]]",
+      "[[MiMo Token Plan]]",
+      "[[AI 模型并发能力]]"
+    ],
+    "summary": "MiMo-V2.5-Pro 是小米 MiMo-V2.5 系列的推理旗舰模型，具备 1M 上下文窗口、131072 最大输出和 OpenAI 兼容接口，定位是高强度推理与 Agent 场景；它的关键代价是超过 256K 上下文后价格翻倍。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": [
+      "艾伯"
+    ],
+    "source": [
+      "[[Literature/MiMo-V2.5-Pro]]"
+    ]
+  },
+  {
+    "path": "Permanent/MiMo-V2.5.md",
+    "title": "MiMo-V2.5",
+    "categories": "text",
+    "types": [
+      "article"
+    ],
+    "kinds": [],
+    "topics": [
+      "[[AI 模型知识库]]",
+      "[[MiMo 平台]]",
+      "[[MiMo Token Plan]]"
+    ],
+    "summary": "MiMo-V2.5 是小米 MiMo-V2.5 系列的全模态感知与 Agent 模型，支持图像、视频、音频和文本统一处理，具备 1M 上下文与 131072 最大输出，价格低于 MiMo-V2.5-Pro，适合需要多模态和成本平衡的场景。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": [
+      "艾伯"
+    ],
+    "source": [
+      "[[Literature/MiMo-V2.5]]"
+    ]
+  },
+  {
+    "path": "Permanent/kimi-k2.5.md",
+    "title": "kimi-k2.5",
+    "categories": "text",
+    "types": [
+      "article"
+    ],
+    "kinds": [],
+    "topics": [
+      "[[AI 模型知识库]]",
+      "[[AI 模型并发能力]]",
+      "[[kimi-k2.5 并发测试]]"
+    ],
+    "summary": "kimi-k2.5 当前在知识库里的已验证高价值信息主要来自并发测试：10 到 20 并发时偶发 429，30 到 50 并发又恢复全成功，因此更像服务端瞬时波动，而不是一个低并发硬上限模型。",
+    "tags": [
+      "active"
+    ],
+    "date": "2026-05-07",
+    "author": [
+      "艾伯"
+    ],
+    "source": [
+      "[[Literature/kimi-k2.5 并发测试]]"
+    ]
+  }
+]

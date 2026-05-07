@@ -1,0 +1,155 @@
+{
+  "updated": "2026-05-07",
+  "total_raws": 13,
+  "transcribed": 13,
+  "total_literature": 13,
+  "resolved": 13,
+  "promoted": 13,
+  "entries": [
+    {
+      "raw": "MOC.md",
+      "transcribed": true,
+      "literature": "AI 模型知识库 — 导航页.md"
+    },
+    {
+      "raw": "deepseek-anthropic-api.md",
+      "transcribed": true,
+      "literature": "DeepSeek Anthropic 兼容接口.md"
+    },
+    {
+      "raw": "deepseek-api-home.md",
+      "transcribed": true,
+      "literature": "DeepSeek API 接入概览.md"
+    },
+    {
+      "raw": "deepseek-pricing.md",
+      "transcribed": true,
+      "literature": "DeepSeek 模型与价格.md"
+    },
+    {
+      "raw": "deepseek-thinking-mode.md",
+      "transcribed": true,
+      "literature": "DeepSeek 思考模式.md"
+    },
+    {
+      "raw": "deepseek-tool-calls.md",
+      "transcribed": true,
+      "literature": "DeepSeek Tool Calls.md"
+    },
+    {
+      "raw": "deepseek-v4-pro 并发测试.md",
+      "transcribed": true,
+      "literature": "deepseek-v4-pro 并发测试.md"
+    },
+    {
+      "raw": "kimi-k2.5-concurrency.md",
+      "transcribed": true,
+      "literature": "kimi-k2.5 并发测试.md"
+    },
+    {
+      "raw": "mimo-platform.md",
+      "transcribed": true,
+      "literature": "MiMo 平台.md"
+    },
+    {
+      "raw": "mimo-token-plan.md",
+      "transcribed": true,
+      "literature": "MiMo Token Plan.md"
+    },
+    {
+      "raw": "mimo-v2.5-pro-concurrency.md",
+      "transcribed": true,
+      "literature": "mimo-v2.5-pro 并发测试.md"
+    },
+    {
+      "raw": "mimo-v2.5-pro.md",
+      "transcribed": true,
+      "literature": "MiMo-V2.5-Pro.md"
+    },
+    {
+      "raw": "mimo-v2.5.md",
+      "transcribed": true,
+      "literature": "MiMo-V2.5.md"
+    }
+  ],
+  "literature_status": [
+    {
+      "file": "AI 模型知识库 — 导航页.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/AI 模型知识库]]"
+    },
+    {
+      "file": "DeepSeek API 接入概览.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/DeepSeek API 平台]]"
+    },
+    {
+      "file": "DeepSeek Anthropic 兼容接口.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/DeepSeek API 平台]]"
+    },
+    {
+      "file": "DeepSeek Tool Calls.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/DeepSeek-V4-Pro]]"
+    },
+    {
+      "file": "DeepSeek 思考模式.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/DeepSeek-V4-Flash]]"
+    },
+    {
+      "file": "DeepSeek 模型与价格.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/DeepSeek 定价与规格]]"
+    },
+    {
+      "file": "MiMo Token Plan.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/MiMo Token Plan]]"
+    },
+    {
+      "file": "MiMo 平台.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/MiMo 平台]]"
+    },
+    {
+      "file": "MiMo-V2.5-Pro.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/MiMo-V2.5-Pro]]"
+    },
+    {
+      "file": "MiMo-V2.5.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/MiMo-V2.5]]"
+    },
+    {
+      "file": "deepseek-v4-pro 并发测试.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/AI 模型并发能力]]"
+    },
+    {
+      "file": "kimi-k2.5 并发测试.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/AI 模型并发能力]]"
+    },
+    {
+      "file": "mimo-v2.5-pro 并发测试.md",
+      "resolved": true,
+      "promoted": true,
+      "permanent": "[[Permanent/AI 模型并发能力]]"
+    }
+  ]
+}

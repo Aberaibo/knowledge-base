@@ -73,6 +73,8 @@ Obsidian → 打开其他仓库 → 打开本地仓库 → 选刚才克隆的文
 3. 不需要在插件里配 token——身份认证走系统 git，不是你该操心的事
 4. **国内网络直连 GitHub 443 被墙** → 设 git 代理：`git config --global http.proxy http://127.0.0.1:端口`，常见端口 Clash 7890 / V2Ray 10809
 5. **代理通后报 RPC failed / Connection reset** → `git config --global http.postBuffer 524288000`；仍不稳则补 `git config --global http.lowSpeedLimit 0` 和 `git config --global http.lowSpeedTime 999999`
+6. **自动 pull 报 conflicts / 远端分叉** → `git fetch origin && git reset --hard origin/master`（⚠️ 会丢弃本地修改）
+7. **想合并远端多个提交** → `git rebase -i HEAD~N`（squash）→ `git push --force`
 
 ## 参考文献
 

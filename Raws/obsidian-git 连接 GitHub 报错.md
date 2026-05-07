@@ -59,3 +59,29 @@ git config --global http.postBuffer 524288000
 git config --global http.lowSpeedLimit 0
 git config --global http.lowSpeedTime 999999
 ```
+
+## 进阶报错：合并冲突（Conflicts）
+
+自动 pull 时远端历史被 force push 改写，本地报：
+
+```
+You have conflicts in 3 files
+```
+
+根因：远端 commit 历史被改写（force push / amend），本地和远端分叉。
+
+解决（Git Bash 中 cd 到 vault 文件夹）：
+```
+git fetch origin
+git reset --hard origin/master
+```
+
+⚠️ `git reset --hard` 会丢弃本地修改，执行前确认没有未备份的新笔记。
+
+如果远端想合并多个提交再推（减少分叉概率）：
+```
+git rebase -i HEAD~N   # N=要合并的 commit 数
+# 编辑器里把第 2 行起 pick → squash，保存
+# 合并提交消息，保存退出
+git push --force origin master
+```

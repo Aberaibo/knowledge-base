@@ -25,6 +25,8 @@ promoted_to:
 **备选**: Obsidian Global Proxy 插件（适用于插件不读 git 全局配置的情况）。
 
 **进阶报错**: 配代理后出现 `RPC failed; curl 28 Recv failure: Connection was reset` → `git config --global http.postBuffer 524288000`；仍不稳补 `http.lowSpeedLimit 0` + `http.lowSpeedTime 999999`
+- **conflicts 冲突**: 远端被 force push → `git fetch origin && git reset --hard origin/master`
+- **合并多个提交**: `git rebase -i HEAD~N` squash → `git push --force`
 
 ## 参考文献
 
